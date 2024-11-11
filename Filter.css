@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+}
+.upskill {
+    background-color: #2196f3;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 10rem;
+    padding-right: 5rem;
+
+}
+.head {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.profile {
+    display: flex;
+}
+.Header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.Search {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#Find {
+    color: #2196f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#bt {
+    background-color: white;
+    color: #2196f3;
+    outline-color: #ff900;
+    padding: 5px;
+
+}
+.Testimonials {
+    background-color: #2196f3;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+button {
+    background-color: #2196f3;
+    color: white;
+    outline: #2196f3;
+}
